@@ -1,7 +1,7 @@
 KikwikUserBundle
 =================
 
-A super simple user bundle that provide very basic helpers for symfony 5.3 and 6.x user management.
+A super simple user bundle that provide very basic helpers for symfony 6.4 and 7.x user management.
 
 
 Installation

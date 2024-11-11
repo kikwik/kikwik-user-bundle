@@ -72,15 +72,7 @@ class UserEditCommand extends BaseCommand
         }
 
         $user->setIsEnabled($isEnabled);
-
-        // set updatedBy
-        $uow = $this->entityManager->getUnitOfWork();
-        $uow->computeChangeSets();
-        $aChangeSet = $uow->getEntityChangeSet($user);
-        if(count($aChangeSet))
-        {
-            $user->setUpdatedBy('kikwik:user:edit');
-        }
+        $user->setUpdatedBy('kikwik:user:edit');
 
         $this->entityManager->persist($user);
         $this->entityManager->flush();

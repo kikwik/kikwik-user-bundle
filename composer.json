@@ -12,15 +12,15 @@
     ],
     "require": {
         "php": ">=8.2.0",
-        "symfony/framework-bundle": "^6.4",
-        "symfony/security-bundle": "^6.4",
-        "symfony/translation": "^6.4",
-        "symfony/mailer": "^6.4",
-        "symfony/form": "^6.4",
-        "symfony/validator": "^6.4",
-        "symfony/twig-bundle": "^6.4",
+        "symfony/framework-bundle": "^6.4|^7.0",
+        "symfony/security-bundle": "^6.4|^7.0",
+        "symfony/translation": "^6.4|^7.0",
+        "symfony/mailer": "^6.4|^7.0",
+        "symfony/form": "^6.4|^7.0",
+        "symfony/validator": "^6.4|^7.0",
+        "symfony/twig-bundle": "^6.4|^7.0",
         "doctrine/doctrine-bundle": "^2.0",
-        "doctrine/orm": "^2.7",
+        "doctrine/orm": "^2.7|^3.0",
         "stof/doctrine-extensions-bundle": "^1.9"
     },
     "autoload": {

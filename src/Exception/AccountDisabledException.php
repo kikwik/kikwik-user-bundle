@@ -7,7 +7,7 @@ use Throwable;
 
 class AccountDisabledException extends AccountStatusException
 {
-    public function getMessageKey()
+    public function getMessageKey(): string
     {
         return 'Your account is disabled.';
     }
